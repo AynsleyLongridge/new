@@ -60,3 +60,75 @@ body
     height: 300px;
     margin-bottom: 10px;
 }
+
+.p3 { 
+    /* The image used */
+    background-image: url(pictures/portfolio/takahe.png);
+
+    /* Set a specific height */
+     position: relative;
+    float: left;
+    height: 300px; 
+    width: 60%;
+    margin-top: 10px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p2 { 
+    /* The image used */
+    background-image: url(pictures/ishared);
+
+    /* Set a specific height */
+     position: relative;
+    float: right;
+    height: 300px; 
+    width: 60%;
+    margin-top: 10px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p4 { 
+    /* The image used */
+    background-image: url(pictures/portfolio/elements.png);
+
+    /* Set a specific height */
+     position: relative;
+    float: left;
+    height: 300px; 
+    width: 60%;
+    margin-top: 10px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3 { 
+    /* The image used */
+    background-image: url(pictures/portfolio/takahe.png);
+
+    /* Set a specific height */
+     position: relative;
+    float: left;
+    height: 300px; 
+    width: 60%;
+    margin-top: 10px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
