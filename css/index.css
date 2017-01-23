@@ -66,9 +66,10 @@ body
 
 /*----------------------------------------------------*/
 
-/* Desktops and laptops ----------- */
+/* Large screens ----------- */
 @media only screen
-and (min-width : 1224px) {
+and (min-width : 1824px) {
+/* STYLES GO HERE */
  
     .Takahe {
     position: relative;
