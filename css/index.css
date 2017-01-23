@@ -132,3 +132,33 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/*----------------------------------------------------*/
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+ 
+    .Takahe {
+    position: relative;
+    border: 5px solid #FFB174;
+    width: 39%;
+    float: right;
+    margin-top: 0.95%;
+    height: 280px;
+    margin-bottom: 0px;
+}   
+    
+    .ishared {
+    position: relative;
+    border: 5px solid #FFB174;
+    width: 39%;
+    float: left;
+    margin-top: 0%;
+    height: 280px;
+    margin-bottom: 0px;
+}
+    
+    
+}
