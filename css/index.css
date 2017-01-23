@@ -18,7 +18,10 @@ body
 }
 /*----------------------MENU--------*/
 
-
+/*---------------------home page---------------*/
+.index {
+    background-image: url(pictures/wheel.jpg)
+}
 /*---------------------portfolio page---------------*/
 
 .Takahe {
