@@ -18,6 +18,8 @@ body
 }
 
 .wheel {
+    position: relative;
+    float: right;
     max-height: 100%; 
     max-width: 100%;
     background-repeat: no-repeat;
