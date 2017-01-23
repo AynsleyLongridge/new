@@ -26,9 +26,9 @@ body
     border: 5px solid #FFB174;
     width: 39%;
     float: right;
-    margin-top: 0.95%;
-    height: 300px;
-    margin-bottom: 10px;
+    margin-top: 1.4%;
+    height: 290px;
+    margin-bottom: 0px;
 }
 
 .Streetform {
@@ -36,9 +36,9 @@ body
     border: 5px solid #FFB174;
     width: 39%;
     float: left;
-    margin-top: 0.95%;
-    height: 300px;
-    margin-bottom: 10px;
+    margin-top: 1.4%;
+    height: 290px;
+    margin-bottom: 0px;
 }
 
 .ishared {
@@ -46,9 +46,9 @@ body
     border: 5px solid #FFB174;
     width: 39%;
     float: left;
-    margin-top: 0.95%;
-    height: 300px;
-    margin-bottom: 10px;
+    margin-top: 1.4%;
+    height: 290px;
+    margin-bottom: 0px;
 }
 
 .Elements {
@@ -56,15 +56,23 @@ body
     border: 5px solid #FFB174;
     width: 39%;
     float: right;
-    margin-top: 0.95%;
-    height: 300px;
-    margin-bottom: 10px;
+    margin-top: 1.4%;
+    height: 290px;
+    margin-bottom: 0px;
 }
 
 
 
 
 /*----------------------------------------------------*/
+
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+    .mui-btn { visibility: hidden;
+     
+    }
+}
 
 /* Large screens ----------- */
 @media only screen
