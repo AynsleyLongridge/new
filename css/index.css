@@ -27,6 +27,7 @@ body
     float: right;
     margin-top: 0.95%;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .Streetform {
@@ -35,6 +36,7 @@ body
     float: left;
     margin-top: 0.95%;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .ishared {
@@ -43,6 +45,7 @@ body
     float: left;
     margin-top: 0.95%;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .Elements {
@@ -51,4 +54,5 @@ body
     float: right;
     margin-top: 0.95%;
     height: 300px;
+    margin-bottom: 10px;
 }
