@@ -66,11 +66,49 @@ body
 
 /*----------------------------------------------------*/
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+   
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+    
+}
+
+@media only screen
+and (min-width : 768px) {
+/* STYLES GO HERE */
+    
+    .mui-appbar {
+        visibility: hidden;
+    }
+}
+
+
 @media only screen
 and (min-width : 1224px) {
 /* STYLES GO HERE */
-    .mui-btn { visibility: hidden;
-     
+    
+    
+    .mui-appbar {
+        visibility: hidden;
     }
 }
 
@@ -78,6 +116,10 @@ and (min-width : 1224px) {
 @media only screen
 and (min-width : 1824px) {
 /* STYLES GO HERE */
+    
+    .mui-appbar {
+        visibility: hidden;
+    }
  
     .Takahe {
     position: relative;

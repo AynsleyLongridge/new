@@ -42,6 +42,7 @@ buttons {
   left: -200px;
   overflow: auto;
   z-index: 2;
+  border-right: 0.5px solid #CFCFCF; 
   background-color: #fff;
   transition: transform 0.2s;
 }
