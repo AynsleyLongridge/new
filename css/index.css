@@ -129,6 +129,9 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 /* STYLES GO HERE */
     
+    #sidedrawer {
+        width: 400px;
+    }
     .mui-appbar {
         visibility: hidden;
     }
