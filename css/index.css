@@ -18,12 +18,29 @@ body
 }
 
 /*--------------------ABOUT PAGE------------*/
+.aboutleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 10px;
+}
+.aboutright{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: 2;
 
-.aboutpicture {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+    background-image: url(pictures/aboutpicture.png);
+    
+   
 }
 
 /*----------------------MENU--------*/
