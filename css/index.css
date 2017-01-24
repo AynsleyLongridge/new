@@ -15,7 +15,7 @@ body
     line-height:1.429;
     color:rgba(0,0,0,.87);
     background-color:#FFF;
-    left:20%;
+    
 }
 
 /*--------------------ABOUT PAGE------------*/
@@ -47,6 +47,62 @@ body
 
 /*----------------------MENU--------*/
 
+.btn4::before {
+  content: '';
+  position: absolute;
+  bottom: 0%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: #6098FF;
+  display: block;
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.btn4:hover::before {
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1)
+}
+
+.social {
+    position: relative;
+    top:310px;
+    margin-bottom: 0px;
+}
+
+.twitter {
+    position: relative;
+    height: 24px;
+}
+
+.instagram {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 25px;
+
+}
+
+.dribble {
+    position: relative;
+    height: 25px;
+}
+
+.socialline {
+    position: relative;
+    top: 280px;
+}
 /*---------------------home page---------------*/
 .index {
     background-image: url(pictures/wheel.jpg)
