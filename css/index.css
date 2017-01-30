@@ -289,17 +289,9 @@ nav a:focus {
 }
 /*---------------------portfolio page---------------*/
 
-a {
-color: aquamarine;
-    
+.portfonames {
+    color: gainsboro;
 }
-
-a:hover,
-a:focus {
-	outline: none;
-    text-decoration: none;
-}
-
 
 .title {
     font-size: 3.5em;
