@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  
 }
 
 body
@@ -288,9 +288,18 @@ nav a:focus {
     background-position: right;
 }
 /*---------------------portfolio page---------------*/
-
+.caseintro {
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .portfonames {
     color: gainsboro;
+}
+
+.imgleft {
+    margin-left: 40px;
 }
 
 .title {
@@ -526,13 +535,18 @@ svg rect {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
+    
 /* STYLES GO HERE */
+    
+   
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
 /* STYLES GO HERE */
+    
+    
     .aboutright {
         visibility: hidden;
     }
@@ -542,12 +556,16 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+    
+    
 /* STYLES GO HERE */
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
+    
+     
 /* STYLES GO HERE */
    
 }
@@ -595,6 +613,9 @@ and (min-width : 1224px) {
 and (min-width : 1824px) {
 /* STYLES GO HERE */
     
+    .project-content {
+        padding-left: 80px;
+    }
     
     .mui-appbar {
         visibility: hidden;
@@ -669,6 +690,11 @@ Portfolio gallery
   .cd-3d-portfolio-navigation h1 {
     font-size: 3.2rem;
   }
+    .caseintro {
+        padding: 0;
+    }
+        
+    }
 }
 
 /* -------------------------------- 

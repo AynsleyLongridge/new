@@ -86,6 +86,21 @@
                   margin: 1px;
               }
               
+              a{
+                  color: black;
+        
+              }
+              
+              .page {
+                  display:inline-block;
+                  margin-top: 20px;
+              }
+              
+              .portfoliotitle {
+                  margin-top: -30px;
+        
+              }
+              
           </style>
      
          
@@ -94,11 +109,11 @@
 <div class="cd-3d-portfolio">
 	<nav class="cd-3d-portfolio-navigation">
 		<div class="cd-wrapper">
-			<h1>3D Portfolio Template</h1>
+			<h1 class="portfoliotitle">Portfolio</h1>
+        <p>A selection of my most recent work</p>
 				
 			<ul>
-				<li><a href="#0" class="selected"> Page 1</a></li>
-				<li><a href="#0">Page 2</a></li>
+				<li><a class="page" href="#0" class="selected"> Page 1</a><a class="page" href="#0">Page 2</a></li>
 				<!--<li><a href="#0">Filter 3</a></li>-->
 			</ul>
 		</div>
@@ -120,13 +135,13 @@
 							
                          </div>
         
-        <center><h6>Everyday Magic was a brief set by the IxDA student design challange. The aim was to focus on small interactions that you can improve in a massive way. Something that creates a simple, yet powerful moment.</h6></center>
+        <center><h3 class="caseintro">Everyday Magic was a brief set by the IxDA student design challange. The aim was to focus on small interactions that you can improve in a massive way. Something that creates a simple, yet powerful moment.</h3></center>
         
         
         
         <!-------------SKETCHES ------------------>
        
-   <center> <img id="myImg" src="pictures/ishare/ishared1.jpg" height="30%" width="30%"> 
+   <center> <img id="myImg imgleft" src="pictures/ishare/ishared1.jpg" height="30%" width="30%"> 
        
 <img id="myImg" src="pictures/ishare/ishared2.jpg" height="30%" width="30%">
        
@@ -145,20 +160,27 @@
     
     
         <center><iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/X871jtLt7D8" frameborder="0" allowfullscreen></iframe></center>
-        <center><img class="isharedback" src="pictures/ishare/back.png" height="100%" width="80%"></center>
       
         
     
     <p>Thanks to the magic of contactless payments, donations can be made effortlessly without the need to register your details. iShared gives you that, “I did something good!” feeling. Even better, it shows you the impact your gift has made by providing a fun and fact-filled receipt, showing you exactly how your gift has been used.</p>
     
-<br>
+<br> 
+            
         <br>
-<center><h6>Let’s make donating to charity more fun!</h6></center>
+<center><h3>Let’s make donating to charity more fun!</h3>
     
-        <center><a class="button2" href="http://aynsleylongridge.tumblr.com/tagged/iShared" target="_blank">View project</a></center>  
-                            
+</center>
+                    
+                    
+                    <a href="http://aynsleylongridge.tumblr.com/tagged/iShared" target="_blank">  <div class="basicBox">
+        View Project
+  <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+    <rect x='0' y='0' fill='none' width='130' height='65'/>
+  </svg>
+                
 						
-					</div> <!-- .project-content -->
+                </div></a></div> <!-- .project-content -->
 
 					<a href="#0" class="close-project">Close</a>
 				</div> <!-- .project-wrapper -->
@@ -177,7 +199,7 @@
 					<div class="project-content">
 						<div>
 							
-<center><h6>Focusing on narrative storytelling we were given the brief to produce a single page webside based on content given to us about an extinct New Zealand bird.  </h6></center>
+<center><h3>Focusing on narrative storytelling we were given the brief to produce a single page webside based on content given to us about an extinct New Zealand bird.  </h3></center>
                             
                             <center> <img id="myImg" src="pictures/takahe/takahe1.jpg" height="30%" width="30%"> 
                                 
@@ -256,7 +278,7 @@
 
 					<div class="project-content">
 						<div>
-                            <center><h6>Using elements from the periodic table this project was created to help young children learn more about science in a fun and interesting way.</h6></center>
+                            <center><h3>Using elements from the periodic table this project was created to help young children learn more about science in a fun and interesting way.</h3></center>
                             
                             <center><img id="myImg" src="pictures/elements/elements2.jpg" height="30%" width="30%">
                             
@@ -381,7 +403,7 @@
 
 					<div class="project-content">
 						<div>
-							<center><h6>Streetform is a concept idea for a micro-publication from a one day masterclass exploring how content is changing, or - more accurately - how we consume content is changing. </h6></center>
+							<center><h3>Streetform is a concept idea for a micro-publication from a one day masterclass exploring how content is changing, or - more accurately - how we consume content is changing. </h3></center>
                             
                             <center> <img id="myImg" src="pictures/streetform/1.jpg" height="30%" width="30%"> 
                                 <img id="myImg" src="pictures/streetform/2.jpg" height="30%" width="30%">
@@ -500,6 +522,25 @@
 </script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
+          
+        </div></div></body>
+    <style>
+    h3 {
+    font-size: 1.5em;
+    font-family: 'Eczar', serif;
+    font-weight: 400;
+    
+}
+        p{
+            font-size: 1em;
+    font-family: 'Eczar', serif;
+    font-weight: 400;
+            color: black;
+    
+        }
+    
+       
+    </style>
 </html>
     
     

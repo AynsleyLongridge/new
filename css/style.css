@@ -322,6 +322,7 @@ Portfolio Projects
 .cd-3d-portfolio .projects .project-title {
   position: relative;
   z-index: 2;
+
   /* vertically center inside its parent */
   display: table-cell;
   vertical-align: middle;
