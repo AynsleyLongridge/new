@@ -63,6 +63,19 @@ a {
 } 
 /*--------------------ABOUT PAGE------------*/
 
+.aboutleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 1px solid #95B9CF;
+}
+
+
 .abouthello{
     margin-top: 54px;
     font-family: "open sans", sans-serif;
@@ -74,17 +87,7 @@ a {
     font-size: 1.2em;
     line-height: 1.4;
 }
-.aboutleft {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 30%;
-  left: 20%;
-  overflow: auto;
-  z-index: 2;
- padding: 30px;
-    border-right: 1px solid #95B9CF;
-}
+
 .aboutright{
     position: fixed;
     visibility: visible;
@@ -178,10 +181,58 @@ border-right: 0px solid #95B9CF;
 }
 }
 
-@media (min-width:992px){.aboutright{visibility: visible;}}
+@media (min-width:992px){
+    
+    .aboutleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+    border-right: 1px solid #95B9CF;
+}
+
+.aboutright{
+    position: fixed;
+    visibility: visible;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
+}
 
 @media (min-width:1200px){
-    .aboutright{visibility: visible;}
+    
+    .aboutleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+    border-right: 1px solid #95B9CF;
+}
+
+.aboutright{
+    position: fixed;
+    visibility: visible;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
 }
 
 
