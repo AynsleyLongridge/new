@@ -48,6 +48,59 @@ buttons {
   transition: transform 0.2s;
 }
 
+@media (min-width:320px){
+    
+    #sidedrawer {
+ padding-top: 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  left: -220px;
+  overflow: hidden;
+  z-index: 2;
+  border-right: 0.5px solid #CFCFCF; 
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+    
+}
+    
+@media (min-width:544px){ 
+    
+       #sidedrawer {
+ padding-top: 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: -225px;
+  overflow: hidden;
+  z-index: 2;
+  border-right: 0.5px solid #CFCFCF; 
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+  
+}
+
+@media (min-width:768px){
+    #sidedrawer {
+ padding-top: 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  left: -200px;
+  overflow: auto;
+  z-index: 2;
+  border-right: 0.5px solid #CFCFCF; 
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+    
+}
+    
 #content-wrapper {
   min-height: 100%;
   overflow-x: hidden;

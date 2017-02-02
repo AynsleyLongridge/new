@@ -50,9 +50,10 @@ h3 {
 }
 h4 {
     text-transform: lowercase;
-    position: relative;
+    position: absolute;
     margin-right: 10px;
     letter-spacing: 0.12em;
+    margin-bottom: 100px;
 }
 
 
@@ -86,17 +87,105 @@ a {
 }
 .aboutright{
     position: fixed;
+    visibility: visible;
     top: 0;
     bottom: 0;
     width: 50%;
     left: 50%;
     height: 100%;
   overflow: auto;
-  z-index: 2;
-
-
-   
+  z-index: -2;  
 }
+
+@media (min-width:320px){
+    
+    .aboutleft {
+    position: relative;
+        z-index: 1;
+  width: 100%;
+  left: 0%;
+    
+border-right: 0px solid #95B9CF;
+}
+    
+    .aboutright{
+    position: fixed;
+    visibility: hidden;
+    top: 10%;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 90%;
+  overflow: auto;
+  z-index: -2;  
+}
+    
+}
+
+@media (min-width:544px){
+    .aboutleft {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+border-right: 0px solid #95B9CF;
+}
+    
+    .aboutright{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
+
+    .sidedrawer {
+        width: 50%;
+    }
+
+}
+
+@media (min-width:768px){.aboutright{visibility: visible;}
+
+  .aboutleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+    border-right: 1px solid #95B9CF;
+}
+
+     .aboutright{
+    position: fixed;
+    visibility: visible;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: 2;  
+}
+}
+
+@media (min-width:992px){.aboutright{visibility: visible;}}
+
+@media (min-width:1200px){
+    .aboutright{visibility: visible;}
+}
+
+
+
 
 .aboutcv {
     position: relative;
@@ -178,9 +267,11 @@ span {
     margin-bottom: 20px;
 }
 .social {
-    position: relative;
-    top:210px;
-    margin-bottom: 10px;
+    position: absolute;
+    bottom: 20px;
+   left: 5%;
+    right: 5%;
+    
 }
 
 .twitter {
@@ -202,8 +293,9 @@ span {
 }
 
 .socialline {
+    visibility: hidden;
     position: relative;
-    top: 180px;
+    top: 25%
 }
 
 
@@ -405,48 +497,162 @@ nav a:focus {
 
 /*--------------------CV PAGE--------------------------------*/
 /*------------------------CV COLUMS-----------------------*/
-
-.cvmain {
-    left: 20%;
-}
-.cv1 {
-   
-    width: 35%;
-    position: relative;
-    padding-left: 20px;
-    margin-top: 110px;
-    margin-left: 70px;
+.container {
+    margin-top: 40px;
     margin-bottom: 40px;
 }
+.cvleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+    border-right: 1px solid #CFCFCF;
+}
+.cvright{
+    position: fixed;
+    visibility: visible;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    left: 40%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
+
+@media (min-width:320px){
+    
+    .cvleft {
+    position: relative;
+        z-index: 1;
+  width: 100%;
+  left: 0%;
+    
+border-right: 0px solid #95B9CF;
+}
+    
+    .cvright{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    left: 1px;
+  overflow: auto;
+  z-index: -2;  
+}
+
+    
+}
+
+@media (min-width:544px){
+    .aboutleft {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+border-right: 0px solid #95B9CF;
+}
+    
+    .aboutright{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
+
+    .sidedrawer {
+        width: 50%;
+    }
+
+}
+
+@media (min-width:768px){.aboutright{visibility: visible;}
+
+  .cvleft {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 35%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+    border-right: 1px solid #CFCFCF;
+}
+.cvright{
+    position: fixed;
+    visibility: visible;
+    top: 0;
+    bottom: 0;
+    width: 45%;
+    left: 55%;
+    height: 100%;
+  overflow: auto;
+  z-index: -2;  
+}
+}
+
+
+.cvmain {
+    padding-top: 0px;
+    left: 0%;
+}
+.cv1 {
+   position: relative;
+    padding-left: 5%;
+    padding-top: 10px;
+    height: 40%;
+    width: 50%;
+    border-right: 1px solid #CFCFCF;
+}
+
+.cv3 {
+   position: absolute;
+    float: right;
+    left: 50%;
+    bottom: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
 
 .cv2 {
-    
-    width:60%;
-    position: relative;
-    float: right;
-   margin-top: -807px;
-    padding-left: 50px;
-    padding-right: 60px;
-    
+  position: relative;
+    padding-left: 5%;
+    padding-top: 90px;
+    height: 60%;
+    border-bottom: 1px solid #CFCFCF;
+
 }
 
 .personalstatement {
-    padding-left: 90px;
-    padding-right: 60px;
+    
+    padding-top: 10px;
+    padding-bottom: 65px;
 }
 
 h7 {
     font-family: "Slabo 27px", sans-serif;
     color: #FFB174;
     font-size: 1.5em;
-    margin-left: 0px;
-    margin-right: 50px;
     margin-bottom: 60px;
     
 }
 
-.PS {
-    margin-left: 90px;
+.PSS {
+    margin-top: 30px;
 }
 
 h8 {
@@ -454,6 +660,7 @@ h8 {
     font-size: 1.1em;
     margin-left: 0px;
     margin-right: 20px;
+    
     
 }
 
@@ -518,7 +725,7 @@ svg rect {
 }
 
 .s0 {
-    margin-left: 90px;
+    margin-left: 0px;
 }
 
 .s1 {
@@ -532,81 +739,7 @@ svg rect {
 
 
 /*----------------------------------------------------*/
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-    
-/* STYLES GO HERE */
-    
-   
-}
 
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* STYLES GO HERE */
-    
-    
-    .aboutright {
-        visibility: hidden;
-    }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-    
-    
-/* STYLES GO HERE */
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-    
-     
-/* STYLES GO HERE */
-   
-}
-
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/* STYLES GO HERE */
-    
-}
-
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-/* STYLES GO HERE */
-    
-}
-
-@media only screen
-and (min-width : 768px) {
-/* STYLES GO HERE */
-    
-    .mui-appbar {
-        visibility: hidden;
-    }
-}
-
-
-@media only screen
-and (min-width : 1224px) {
-/* STYLES GO HERE */
-    
-    
-    .mui-appbar {
-        visibility: collapse;
-    }
-}
 
 /* Large screens ----------- */
 @media only screen
@@ -667,6 +800,90 @@ and (min-width : 1824px) {
 }
 
 
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+    
+    
+    .mui-appbar {
+        visibility: collapse;
+    }
+}
+
+
+@media only screen
+and (min-width : 768px) {
+/* STYLES GO HERE */
+    
+    .mui-appbar {
+        visibility: hidden;
+    }
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+    
+}
+
+
+/* STYLES GO HERE */
+   
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+    
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    
+    
+/* STYLES GO HERE */
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    
+    .aboutright {
+         visibility: hidden;
+    }
+
+
+/* STYLES GO HERE */
+    
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    
+/* STYLES GO HERE */
+    
+   
+}
+
+
+
+  
+    
+    
+     
 
 
 /* -------------------------------- 
