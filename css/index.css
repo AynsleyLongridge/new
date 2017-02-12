@@ -512,6 +512,7 @@ nav a:focus {
     background-size: contain;
     background-position: right;
 }
+
 /*---------------------portfolio page---------------*/
 .pagelist {
     display: inline-block;
@@ -1056,6 +1057,17 @@ Portfolio gallery
 Portfolio Projects 
 
 -------------------------------- */
+
+
+.cd-3d-portfolio .projects .row > li {
+  /* this is the single project */
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 .cd-3d-portfolio {
   overflow: hidden;
 }
@@ -1188,6 +1200,7 @@ Portfolio Projects
 .cd-3d-portfolio .projects .row > li {
   /* this is the single project */
   position: absolute;
+  overflow: hidden;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -1597,7 +1610,6 @@ Back to top
   background-color: black;
   opacity: 1;
 }
-
 
 
 
