@@ -10,7 +10,16 @@
 }
 /*-------------------MAIN----------------*/
 
+.marqueportfolio {
+    position: relative;
+    height: 70px;
+    margin-top: 30px;
+}
 
+.selected {
+    display:inline-block;
+    padding-bottom: 10px;
+}
 
 
 *, *::after, *::before {
@@ -105,6 +114,14 @@ and (max-width : 320px) {
  padding: 30px;
  border-right: 0px solid #95B9CF;
 }
+    
+    .contactinfo {
+    position: relative;
+        left: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
 }
 
 /* Large screens ----------- 
@@ -175,6 +192,13 @@ and (min-width : 1824px) {
  padding: 30px;
  border-right: 0px solid #95B9CF;
 }
+     .contactinfo {
+    position: relative;
+        left: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
     
     .aboutright{
     position: fixed;
@@ -192,7 +216,13 @@ and (min-width : 1824px) {
 
 @media (min-width:544px){
     
-   
+    .contactinfo {
+    position: relative;
+        left: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
     
     .aboutleft {
   position: relative;
@@ -224,7 +254,13 @@ border-right: 0px solid #95B9CF;
 
 @media (min-width:768px){.aboutright{visibility: visible;}
 
-    
+     .contactinfo {
+    position: relative;
+        left: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
     
     .leftinfo {
     position:absolute;
@@ -633,7 +669,22 @@ nav a:focus {
 }
 
 
-/*--------------------CV PAGE--------------------------------*/
+/*--------------------CONTACT PAGE--------------------------------*/
+
+.contactinfo {
+    position: relative;
+    left: 2%;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+
+.pleasefeel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FFB174;
+}
 /*------------------------CV COLUMS-----------------------*/
 .container {
     margin-top: 40px;
