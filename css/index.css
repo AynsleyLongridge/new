@@ -10,6 +10,9 @@
 }
 /*-------------------MAIN----------------*/
 
+
+
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -62,9 +65,68 @@ a {
     color: orange;
 } 
 /*--------------------ABOUT PAGE------------*/
+/*.aboutleft {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 1px solid #95B9CF;
+}
 
+.leftinfo {
+    position:absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 1px solid #95B9CF;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+    
+   .leftinfo {
+    position:absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  left: 0%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 0px solid #95B9CF;
+}
+}
+
+/* Large screens ----------- 
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+    
+.leftinfo {
+    position:absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 1px solid #95B9CF;
+}
+}
+    
 .aboutleft {
-  position: fixed;
+  position:relative;
   top: 0;
   bottom: 0;
   width: 30%;
@@ -102,13 +164,16 @@ a {
 
 @media (min-width:320px){
     
-    .aboutleft {
-    position: relative;
-        z-index: 1;
+    .leftinfo {
+    position:absolute;
+  top: 0;
+  bottom: 0;
   width: 100%;
   left: 0%;
-    
-border-right: 0px solid #95B9CF;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 0px solid #95B9CF;
 }
     
     .aboutright{
@@ -126,6 +191,9 @@ border-right: 0px solid #95B9CF;
 }
 
 @media (min-width:544px){
+    
+   
+    
     .aboutleft {
   position: relative;
   top: 0;
@@ -156,6 +224,20 @@ border-right: 0px solid #95B9CF;
 
 @media (min-width:768px){.aboutright{visibility: visible;}
 
+    
+    
+    .leftinfo {
+    position:absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: 20%;
+  overflow: auto;
+  z-index: 2;
+ padding: 30px;
+ border-right: 1px solid #95B9CF;
+}
+    
   .aboutleft {
   position: fixed;
   top: 0;
